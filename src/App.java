@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
@@ -9,7 +10,19 @@ public class App {
         studentsList.add("Danh");
         studentsList.add("Raghdah");
 
+
         System.out.println(studentsList);
+
+        studentsList.sort(null);
+        System.err.println(studentsList);
+
+
+
+        
+
+
+
+
         
         
     }
